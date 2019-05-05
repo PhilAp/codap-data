@@ -256,15 +256,19 @@ a:hover {
     list-style: none;
     margin: 5px;
     min-height: 140px;
+    max-height: 240px;
     padding: 1%;
     position: relative;
     width: 200px;
     background-color:white;
+    padding-bottom:5px;
 }
 
 .listing-title {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
+    margin-top: .1em;
+    margin-bottom:.1em;
     -webkit-margin-before:.1em;
     -webkit-margin-after:.1em;
     width:150px;
@@ -274,11 +278,52 @@ a:hover {
 .listing-desc {
     -webkit-margin-before:.1em;
     -webkit-margin-after:.1em;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
     font-size: 12px;
+    visibility: hidden;
+    position: absolute;
+    background: #0091b1;
+    color: #fff;
+    opacity: 0;
+    z-index: 2;
+    transition: all 0.5s;
 }
 
 .listing-link {
     font-size: 10px;
-    position: absolute;
+    top: 2px;
+    position: relative;
     bottom:10px;
+}
+
+.listing-image  {
+    width: 200px;
+    margin: 2px 0;
+    padding: 0;
+    height: 140px;
+    position: relative;
+}
+
+.lesson-plan-link {
+    float: right;
+}
+
+.listing-image:hover .listing-desc  {
+    visibility: visible;
+    opacity: .9;
+
+}
+
+.listing-image object {
+    width: 200px;
+    margin: 2px 0;
+    padding: 0;
+    max-height: 135px;
+}
+.listing-image img {
+    max-width: 100%;
+    max-height: 120px;
 }

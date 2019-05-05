@@ -128,20 +128,23 @@ $(document).ready(function () {
         var title = obj.title,
             description = obj.description,
             path = '',
+            lesson_plan = obj.lesson_plan,
             categories = obj.categories,
+            image_path = obj.image_path,
+            alt_img_path = './resources/images/codap_logo.png',
             url = $("#codap-url").val(),
             category_bin ='',
             listing = '',
             listing_category='',
+            listing_image_link='',
             listing_desc ='',
+            listing_image = '',
             query_param = '?url=',
             launchLink = '',
             linkLink = '',
             url_root = window.location.origin+window.location.pathname,
             listing_container = "#listing_container";
 
-        // console.log("in AddListingObj");
-        // console.log(categories);
         if (obj.path.match('^http','i')) {
             path = obj.path;
         }
@@ -155,15 +158,20 @@ $(document).ready(function () {
         }
 
         listing = $('<li>').addClass('listing').addClass(categories);
-        // categories.forEach(function(category)
-        //     {   console.log(category);
-        //         $('li.listing').addClass(category)} );
         launchLink = $('<a class = "listing-title" target = "_blank" href='+url+query_param+path+'> '+title+' </a>'),
-            listing_desc = $('<p>').addClass('listing-desc').text(description),
+            listing_image = $('<div class = "listing-image"><object data ='+image_path+' type="image/png"><img src = '+alt_img_path+'>'),
+            listing_image_link=$('<a class = "listing-image-link" target = "_blank" href='+url+query_param+path+'> '+title),
+            listing_desc = $('<span>').addClass('listing-desc').text(description).append('</a>'),
             linkLink = $('<a class = "listing-link" href=' + path + '> Embeddable Link </a>'),
+            lessonPlanLink = $('<a class="listing-link lesson-plan-link" href=' + lesson_plan + '> Lesson Plan </a>'),
             launchLink.appendTo(listing);
-        listing_desc.appendTo(listing);
+        listing_image.appendTo(listing_image_link);
+        listing_desc.appendTo(listing_image);
+        listing_image_link.appendTo(listing);
         linkLink.appendTo(listing);
+        if (typeof lesson_plan !== 'undefined') {
+          lessonPlanLink.appendTo(listing);
+        }
         listing.appendTo(listing_container);
     }
 
@@ -225,11 +233,14 @@ $(document).ready(function () {
         $("#search").submit(function() {filterCategory(sample_doc_list); return false;});
         $("#categories .category-checkbox").change(function() {filterCategory(sample_doc_list); return false;});
         // $('#codap-url').submit(function(){filterCategory(sample_doc_list); return false;});
-        $('#codap-url').on('input', function(){filterCategory(sample_doc_list); return false;});
+        //$('#codap-url').on('input', function(){filterCategory(sample_doc_list); return false;});
+        $('#codap_url_form').on('submit', function(event) {
+            buildListing(sample_doc_list);
+            event.preventDefault();
+            return false;});
 
     }
 
     fetchObjList();
 
 });
-

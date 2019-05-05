@@ -5,6 +5,7 @@
       "description": "Save Madeline the dog by playing Roshambo against the evil Dr. Markov. Improve you odds by analyzing Markov's moves. ",
       "path": "SampleDocs/Mathematics/Probability/markov/Markov_Sample.json",
       "visible": true,
+      "image_path": "./resources/images/markov_banner.png",
       "tag": [
         "markov chains",
         "markov",
@@ -30,6 +31,7 @@
         "Pocketlab",
         "pressure changes"
       ],
+      "image_path": "./resources/images/BartPressure.jpg",
       "categories": [
         "miscellaneous",
         "science"
@@ -46,6 +48,22 @@
         "birth rates",
         "probability"
       ],
+      "image_path": "./resources/images/Birthdays.jpg",
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "title": "Fibonacci",
+      "description": "Explore the Fibonacci numbers in CODAP.",
+      "path": "SampleDocs/Mathematics/Number_Theory/Fibonacci/Fibonacci.codap",
+      "visible": true,
+      "tag": [
+        "number theory",
+        "fibonacci",
+        "numbers"
+      ],
+      "image_path": "./resources/images/fibonacci.png",
       "categories": [
         "math"
       ]
@@ -63,12 +81,13 @@
         "earth science",
         "earth"
       ],
+      "image_path": "./resources/images/ClimateChange.jpg",
       "categories": [
         "science"
       ]
     },
     {
-      "title": "The Future of Climate Change",
+      "title": "Future Climate Changes",
       "description": "How can we better understand and project future climate changes?",
       "path": "SampleDocs/Science/E_Sciences/EPA_Future_of_Climate_Change/EPA_Future_of_Climate_Change.codap",
       "visible": true,
@@ -83,6 +102,26 @@
         "global warming",
         "greenhouse"
       ],
+      "image_path": "./resources/images/TheFutureofClimateChange.jpg",
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "Hurricanes 2005-2015",
+      "description": "Explore NOAA data of hurricanes from 2005-2015.",
+      "path": "SampleDocs/Science/E_Sciences/Hurricanes/Hurricanes.codap",
+      "visible": true,
+      "tag": [
+        "climate",
+        "change",
+        "hurricanes",
+        "typhoon",
+        "earth science",
+        "earth",
+        "tropical storm"
+      ],
+      "image_path": "./resources/images/hurricane.jpg",
       "categories": [
         "science"
       ]
@@ -98,6 +137,7 @@
         "earth science",
         "earth"
       ],
+      "image_path": "./resources/images/CaliforniaEarthquakes.jpg",
       "categories": [
         "science"
       ]
@@ -105,7 +145,7 @@
     {
       "title": "Fast Plants",
       "description": "An example document for CODAP beginners. Make graphs and use selection to look for patterns in fast plant growth.",
-      "path": "SampleDocs/Science/Biology/fast_plants/fast_plants.json",
+      "path": "SampleDocs/Science/Biology/fast_plants/fast_plants.codap",
       "visible": true,
       "tag": [
         "fast plants",
@@ -113,6 +153,7 @@
         "beginner",
         "biology"
       ],
+      "image_path": "./resources/images/FastPlants.jpg",
       "categories": [
         "miscellaneous",
         "science"
@@ -128,6 +169,7 @@
         "biology",
         "animals"
       ],
+      "image_path": "./resources/images/DomesticCats.jpg",
       "categories": [
         "science"
       ]
@@ -142,6 +184,7 @@
         "biology",
         "animals"
       ],
+      "image_path": "./resources/images/BirgittheGiantTortoise.png",
       "categories": [
         "science"
       ]
@@ -149,13 +192,14 @@
     {
       "title": "Four Seals",
       "description": "Display the tracks of four elephant seals in the Pacific on a map. Make graphs and use selection to help determine what is going on.",
-      "path": "SampleDocs/Science/Biology/four-seals/four-seals.json",
+      "path": "SampleDocs/Science/Biology/four-seals/Four_Seals.codap",
       "visible": true,
       "tag": [
         "seals",
         "biology",
         "animals"
       ],
+      "image_path": "./resources/images/FourSeals.jpg",
       "categories": [
         "miscellaneous",
         "science"
@@ -171,6 +215,7 @@
         "biology",
         "animals"
       ],
+      "image_path": "./resources/images/Mammal.jpg",
       "categories": [
         "science"
       ]
@@ -180,6 +225,7 @@
       "description": "Experiment dropping a parachute to see how changing the parachute's size and mass of its cargo changes the terminal velocity of the drop.",
       "path": "SampleDocs/Science/PhysChem/parachute/Parachute_Model_Sample.codap",
       "visible": true,
+      "image_path": "./resources/images/parachute.png",
       "tag": [
         "parachute",
         "physics",
@@ -207,6 +253,7 @@
         "USA",
         "model"
       ],
+      "image_path": "./resources/images/StatesandEducation.png",
       "categories": [
         "miscellaneous",
         "socsci"
@@ -244,6 +291,7 @@
       "tag": [
         "educaton"
       ],
+      "image_path": "./resources/images/FacultySalaries.jpg",
       "categories": [
         "miscellaneous"
       ]
@@ -271,6 +319,7 @@
         "height",
         "weight"
       ],
+      "image_path": "./resources/images/SchoolChildrenInfo.jpg",
       "categories": [
         "socsci",
         "math"
@@ -289,6 +338,7 @@
         "height",
         "weight"
       ],
+      "image_path": "./resources/images/SixTests.png",
       "categories": [
         "miscellaneous"
       ]
@@ -373,6 +423,7 @@
         "character",
         "imdb"
       ],
+      "image_path": "./resources/images/MovieCharacters.png",
       "categories": [
         "miscellaneous"
       ]
@@ -392,6 +443,7 @@
       "description": "List of art by artists.",
       "path": "SampleDocs/LanguageArts/Artists/Artists.json",
       "visible": true,
+      "image_path": "./resources/images/artists.jpg",
       "tag": [],
       "categories": [
         "miscellaneous"
@@ -402,7 +454,11 @@
       "description": "The collection at left contains the most recent 500 of the more than 450,000 Googlewhacks that were listed on November 11, 2004.",
       "path": "SampleDocs/LanguageArts/Googlewhacks/Googlewhacks.json",
       "visible": true,
-      "tag": [],
+      "image_path": "./resources/images/GoogleWhack.png",
+      "tag": [
+        "Google",
+        "Internet"
+      ],
       "categories": [
         "language"
       ]
@@ -476,6 +532,7 @@
       "description": "Explore the 300 tallest buildings in the world.",
       "path": "SampleDocs/Mathematics/Algebra/Buildings/Buildings.codap",
       "visible": true,
+      "image_path": "./resources/images/BuildingHeights.jpg",
       "tag": [
         "building",
         "algebra"
@@ -489,7 +546,12 @@
       "description": "Case table shows a model of a savings account.",
       "path": "SampleDocs/Mathematics/Algebra/Compound/Compound.json",
       "visible": true,
-      "tag": [],
+      "image_path": "./resources/images/CompoundInterest.jpg",
+      "tag": [
+        "compound interest",
+        "interest",
+        "money"
+      ],
       "categories": [
         "math"
       ]
@@ -523,6 +585,7 @@
         "algebra",
         "guess"
       ],
+      "image_path": "./resources/images/GuessAndcheck.png",
       "categories": [
         "math"
       ]
@@ -557,6 +620,7 @@
         "integral",
         "derivative"
       ],
+      "image_path": "./resources/images/IntegralsAndDerivatives.png",
       "categories": [
         "math"
       ]
@@ -571,6 +635,7 @@
         "integral",
         "integraton"
       ],
+      "image_path": "./resources/images/Integration.png",
       "categories": [
         "math"
       ]
@@ -580,6 +645,7 @@
       "description": "Investigate the effect of changing x and k in the logistics function f(x)=kx(1-x).",
       "path": "SampleDocs/Mathematics/Calculus/Logistics/Logistics.codap",
       "visible": true,
+      "image_path": "./resources/images/Logistics.png",
       "tag": [
         "calculus",
         "logistics"
@@ -593,6 +659,7 @@
       "description": "Find the minimum of a plotted function.",
       "path": "SampleDocs/Mathematics/Calculus/Minimization/Minimization.codap",
       "visible": true,
+      "image_path": "./resources/images/Minimization.png",
       "tag": [
         "calculus",
         "minimize"
@@ -606,6 +673,7 @@
       "description": "Plotting a graph that uses pi as a unit.",
       "path": "SampleDocs/Mathematics/Calculus/Pi/Pi.codap",
       "visible": true,
+      "image_path": "./resources/images/Unit_Pi.png",
       "tag": [
         "calculus"
       ],
@@ -618,6 +686,7 @@
       "description": "Explore the Johnson solids.",
       "path": "SampleDocs/Mathematics/Geometry/Solids/Solids.codap",
       "visible": true,
+      "image_path": "./resources/images/JohnsonSolids.png",
       "tag": [
         "geometry"
       ],
@@ -629,6 +698,7 @@
       "title": "Digits of Pi",
       "description": "Explore the digits of pi.",
       "path": "SampleDocs/Mathematics/Number_Theory/Digits_of_Pi/Digits_of_Pi.codap",
+      "image_path": "./resources/images/DigitsOfPi.png",
       "visible": true,
       "tag": [
         "number theory"
@@ -652,6 +722,7 @@
       "description": "Investigate the spacing between numbers and their factors.",
       "path": "SampleDocs/Mathematics/Number_Theory/Number_of_Factors/Number_of_Factors.codap",
       "visible": true,
+      "image_path": "./resources/images/NumberOfFactors.png",
       "tag": [],
       "categories": [
         "math"
@@ -728,9 +799,10 @@
       ]
     },
     {
-      "title": "Life Expectancy Probability",
+      "title": "Life Expectancy",
       "description": "What is the average life expectancy today?",
       "path": "SampleDocs/Mathematics/Probability/Life_Expectancy/Life_Expectancy.json",
+      "image_path": "./resources/images/LifeExpectancy.png",
       "visible": true,
       "tag": [],
       "categories": [
@@ -773,8 +845,27 @@
       "path": "SampleDocs/Mathematics/Probability/Spinner_Game/Spinner_Game.json",
       "visible": true,
       "tag": [],
+      "image_path": "./resources/images/SpinnerGame.png",
       "categories": [
         "math"
+      ]
+    },
+    {
+      "title": "Planets",
+      "description": "Investigate data about the 8 planets in our solar system.",
+      "path": "SampleDocs/Science/Astronomy/Planets/Planets.codap",
+      "visible": true,
+      "image_path": "./resources/images/Planets.png",
+      "tag": [
+        "planets",
+        "astronomy",
+        "sky",
+        "solar system"
+      ],
+      "categories": [
+        "science",
+        "astronomy",
+        "solar system"
       ]
     },
     {
@@ -782,9 +873,15 @@
       "description": "Explore 400 stars from a rectangular area of the sky.",
       "path": "SampleDocs/Science/Astronomy/yale_bright/yale_bright.codap",
       "visible": true,
-      "tag": [],
+      "image_path": "./resources/images/BrightStarCatalog.jpg",
+      "tag": [
+        "star",
+        "astronomy",
+        "sky"
+      ],
       "categories": [
-        "science"
+        "science",
+        "astronomy"
       ]
     },
     {
@@ -882,7 +979,12 @@
       "description": "This data covers information about North American first leaf and first bloom lilac phenology, from 1956 to 2003.",
       "path": "SampleDocs/Science/Biology/First_Bloom/First_Bloom.codap",
       "visible": true,
-      "tag": [],
+      "tag": [
+        "Biology",
+        "Plants",
+        "Botany"
+      ],
+      "image_path": "./resources/images/FirstBloom.jpg",
       "categories": [
         "science"
       ]
@@ -1009,10 +1111,11 @@
     },
     {
       "title": "Earthquakes",
-      "description": "Explore earthquakes across California and western Nevada.",
-      "path": "SampleDocs/Science/E_Sciences/Earthquakes/Earthquakes.json",
-      "visible": false,
+      "description": "Explore earthquakes across the globe.",
+      "path": "SampleDocs/Science/E_Sciences/Earthquakes/EarthquakeData.codap",
+      "visible": true,
       "tag": [],
+      "image_path": "./resources/images/EarthquakesAroundtheWorld.jpg",
       "categories": [
         "science"
       ]
@@ -1053,6 +1156,7 @@
       "path": "SampleDocs/Science/E_Sciences/Mauna_Loa/Mauna_Loa.codap",
       "visible": true,
       "tag": [],
+      "image_path": "./resources/images/MaunaLoaCarbonLevels.jpg",
       "categories": [
         "science"
       ]
@@ -1132,7 +1236,11 @@
       "description": "A case table with information about all of the elements of the periodic table.",
       "path": "SampleDocs/Science/PhysChem/Elements/Elements.json",
       "visible": true,
-      "tag": [],
+      "tag": [
+        "chemistry"
+
+      ],
+      "image_path": "./resources/images/PeriodicTable.png",
       "categories": [
         "science"
       ]
@@ -1178,6 +1286,40 @@
       ]
     },
     {
+      "title": "Roller Coasters",
+      "description": "Data on 157 roller coasters in the US that opened between 1915 and 2016.",
+      "path": "SampleDocs/Science/PhysChem/rollercoasters/rollercoasters.codap",
+      "lesson_plan": "SampleDocs/Science/PhysChem/rollercoasters/roller-coasters-lesson-plan.pdf",
+      "visible": true,
+      "tag": [
+        "roller coasters",
+        "physics",
+        "acceleration",
+        "ESTEEM"
+      ],
+      "image_path": "./resources/images/rollercoasters.jpg",
+      "categories": [
+        "science"
+      ]
+    },
+    {
+      "title": "2015 Vehicles",
+      "description": "Data from a random sample of 300 vehicles manufactured in the US in 2015.",
+      "path": "SampleDocs/Science/PhysChem/Vehicles/Vehicles.codap",
+      "visible": true,
+      "tag": [
+        "vehicles",
+        "physics",
+        "acceleration",
+        "ESTEEM"
+      ],
+      "image_path": "./resources/images/2015cars.jpg",
+      "categories": [
+        "science"
+      ]
+    },
+
+    {
       "title": "Airplanes",
       "description": "A case table about the operation statistics of various airplane models in 1999.",
       "path": "SampleDocs/Science/Technology/Airplanes/Airplanes.json",
@@ -1191,8 +1333,14 @@
       "title": "Cars",
       "description": "Explore information about car models.",
       "path": "SampleDocs/Science/Technology/Cars/Cars.codap",
+      "image_path": "./resources/images/Cars.jpg",
       "visible": true,
-      "tag": [],
+      "tag": [
+        "cars",
+        "automobile",
+        "mpg",
+        "miles per gallon"
+      ],
       "categories": [
         "science"
       ]
@@ -1230,6 +1378,7 @@
         "female",
         "fertility"
       ],
+      "image_path": "./resources/images/ChildrenperWomen.jpg",
       "categories": [
         "socsci"
       ]
@@ -1247,6 +1396,24 @@
         "health",
         "infection"
       ],
+      "image_path": "./resources/images/HospitalInfectionRates.jpg",
+      "categories": [
+        "socsci",
+        "science"
+      ]
+    },
+    {
+      "title": "Granola Bars",
+      "description": "Data from the US Department of Agriculture about 33 granola bars sold in the US in 2017.",
+      "path": "SampleDocs/Social_Science/Granola_Bars/Granola_Bars.codap",
+      "visible": true,
+      "tag": [
+       "food",
+        "agriculture",
+        "granola bars",
+        "granola bar"
+      ],
+      "image_path": "./resources/images/granola_bars.jpg",
       "categories": [
         "socsci",
         "science"
@@ -1513,7 +1680,12 @@
       "description": "A case table about random passenger car models from 2007",
       "path": "SampleDocs/Social_Science/United_States/Cars07/Cars07.json",
       "visible": true,
-      "tag": [],
+      "tag": [
+        "cars",
+        "passengers",
+        "car models"
+      ],
+      "image_path": "./resources/images/Cars2007.jpg",
       "categories": [
         "socsci"
       ]
@@ -1798,7 +1970,7 @@
       ]
     },
     {
-      "title": "Crime Rates in Arizona and California",
+      "title": "Crime Rates",
       "description": "Data from FBI crime reports over Arizona and California. CODAP document by Phil.",
       "path": "SampleDocs/Social_Science/United_States/Crime_Rates/Crime_Rates.codap",
       "visible": true,
@@ -1808,6 +1980,7 @@
         "FBI",
         "Crime"
       ],
+      "image_path": "./resources/images/CrimeRatesinArizonaandCalifornia.png",
       "categories": [
         "socsci"
       ]
@@ -1817,17 +1990,27 @@
       "description": "This data set, from the World Bank, explores the total annual cereal production from 1991 to 2014.",
       "path": "SampleDocs/Social_Science/World/Cereal_Production/Cereal_Production.codap",
       "visible": true,
-      "tag": [],
+      "tag": [
+        "Cereal",
+        "Food",
+        "World bank"
+      ],
+      "image_path": "./resources/images/CerealProduction.jpg",
       "categories": [
         "socsci"
       ]
     },
     {
-      "title": "Human Development Index",
+      "title": "Human Development",
       "description": "This data set, from the United Nations Human Development Reports, explores the potential of human development in world countries.",
       "path": "SampleDocs/Social_Science/World/Human_Development_Index/Human_Development_Index.codap",
       "visible": true,
-      "tag": [],
+      "tag": [
+        "human development index",
+        "social studies",
+        "hdi"
+      ],
+      "image_path": "./resources/images/HumanDevelopmentIndex.png",
       "categories": [
         "socsci",
         "united nations",
@@ -1843,6 +2026,7 @@
       "path": "SampleDocs/Social_Science/World/Political_Regimes/Political_Regimes.codap",
       "visible": true,
       "tag": [],
+      "image_path": "./resources/images/PoliticalRegimes.jpg",
       "categories": [
         "socsci"
       ]
@@ -1858,6 +2042,7 @@
         "world",
         "cities"
       ],
+      "image_path": "./resources/images/WorldCities.jpg",
       "categories": ["socsci"]
     },
     {
@@ -1888,12 +2073,13 @@
         "maize",
         "almonds"
       ],
+      "image_path": "./resources/images/USCrops.jpg",
       "categories": [
         "socsci"
       ]
     },
     {
-      "title": "US Census 2000 - US PUMAs data",
+      "title": "US Census 2000",
       "description": "US Data from an IPUMS Census from the University of Minnesota.",
       "path": "SampleDocs/Social_Science/United_States/US_Census/US_PUMAS_2000/US_PUMAS_2000.codap",
       "visible": true,
@@ -1902,8 +2088,26 @@
         "social studies",
         "United States"
       ],
+      "image_path": "./resources/images/USCensus2000USPUMAsdata.jpg",
       "categories": [
         "socsci"
+      ]
+    },
+    {
+      "title": "YouTube",
+      "description": "What are the top YouTube videos trending in 2017?",
+      "path": "SampleDocs/Other/YouTube/YouTube.codap",
+      "visible": true,
+      "tag": [
+        "other",
+        "youtube",
+        "video",
+        "viral",
+        "trends"
+      ],
+      "image_path": "./resources/images/YouTube.png",
+      "categories": [
+        "miscellaneous"
       ]
     },
     {
@@ -1956,4 +2160,3 @@
     }
   ]
 }
-
